@@ -9,3 +9,11 @@ end
 def batch_badge_creator(names)
   names.map {|name| badge_maker(name)}
 end
+
+def assign_rooms(speakers)
+  counter = 1
+  speakers.each do |speaker|
+    puts "Hello, #{name}! You'll be assigned to room #{counter}!"
+    counter += 1
+  end
+end
