@@ -9,6 +9,6 @@ end
 def batch_badge_creator(name)
   attendees.each do |attendee|
     return  "Hello, my name is #{attendee}."
-    counter+=1
+    counter = counter+1
   end
 end
