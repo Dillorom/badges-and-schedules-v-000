@@ -9,6 +9,7 @@ end
 def batch_badge_creator(attendees)
   attendees.each do |attendee|
     return  badge_maker(name)
+    name == attendees
     counter = counter+1
   end
 end
